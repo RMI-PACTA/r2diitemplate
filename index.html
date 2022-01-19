@@ -38,7 +38,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div id="navbar" class="collapse navbar-collapse ms-2">
+    <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto"></ul>
 <form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="search.json" id="search-input" placeholder="Search for" autocomplete="off">
@@ -83,9 +83,8 @@
 <p>Set it as your site’s theme in <code>_pkgdown.yaml</code>:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode yml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">template</span><span class="kw">:</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">package</span><span class="kw">:</span><span class="at"> r2diitemplate</span></span></code></pre></div>
-<p>If you’re building your site using a GitHub action or other similar tool, you’ll also need to install r2diitemplate in the runner. If you’re using the r-lib pkgdown workflow, you can add the following lines to your DESCRIPTION:</p>
-<pre><code>Config/Needs/website: r2diitemplate
-Remotes: 2DegreesInvesting/r2diitemplate</code></pre>
+<p>If you’re building your site using a GitHub action or other similar tool, you’ll also need to install r2diitemplate in the runner. If you’re using the r-lib pkgdown workflow, you can add the following line to your DESCRIPTION:</p>
+<pre><code>Config/Needs/website: 2DegreesInvesting/r2diitemplate</code></pre>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
