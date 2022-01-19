@@ -30,7 +30,7 @@ template:
   package: r2diitemplate
 ```
 
-If you're building your site using a GitHub action or other similar tool, you'll also need to install r2diitemplate in the runner. If you're using the r-lib pkgdown workflow, you can add the following line to your DESCRIPTION:
+If you're building your site using a GitHub action or other similar tool, you'll also need to install r2diitemplate in the runner. If you're using the [r-lib pkgdown workflow](https://github.com/r-lib/actions/blob/v2-branch/examples/pkgdown.yaml), you can add the following line to your DESCRIPTION:
 
 ```
 Config/Needs/website: 2DegreesInvesting/r2diitemplate
