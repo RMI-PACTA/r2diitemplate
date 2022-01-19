@@ -1,0 +1,37 @@
+template:
+  includes:
+    before_title: '<a href="https://2degrees-investing.org"><img src="2DII-Logo-Blue.svg" id="navlogo" alt="2 Degrees Investing Initiative"></a>'
+  bootstrap: 5
+  bslib:
+    bg: "white"
+    fg: "#283140"
+    primary: "#1b6ada"
+    dropdown-link-hover-bg: "#64a4ef"
+    dropdown-link-hover-color: "white"
+    dropdown-link-active-color: "white"
+    headings-color: "#5c677e"
+    navbar-brand-font-size: "2rem"
+    navbar-light-color: "white"
+    navbar-light-brand-color: "white"
+    navbar-light-brand-hover-color: "white"
+    text-muted: "#54585F"
+    navbar-light-hover-color: "white"
+    gray-300: "#dee2e6"
+    border-radius: 0.5rem
+    btn-border-radius: 0.25rem
+    base_font: {google: "IBM Plex Sans"}
+    heading_font: {google: "Corben"}
+navbar:
+  structure:
+    left:  []
+    right: [search, intro, reference, articles, tutorials, news, github]
+
+
+authors:
+  2 Degrees Investing Initiative:
+    href: https://2degrees-investing.org
+    html: <img src='2DII-Logo-Blue.svg' height=24>
+  CJ Yetman:
+    href: https://github.com/cjyetman
+  Mauro Lepore:
+    href: https://github.com/maurolepore
