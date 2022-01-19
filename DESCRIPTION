@@ -13,7 +13,6 @@ Description: This is a pkgdown template intended to be used for pkgdown sites cr
 License: MIT + file LICENSE
 URL: https://github.com/2DegreesInvesting/r2diitemplate
 BugReports: https://github.com/2DegreesInvesting/r2diitemplate/issues
-Suggests: pkgdown
 Encoding: UTF-8
 Config/Needs/website: r2diitemplate
 Remotes: 2DegreesInvesting/r2diitemplate
