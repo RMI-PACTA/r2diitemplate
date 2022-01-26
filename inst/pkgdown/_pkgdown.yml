@@ -1,6 +1,6 @@
 template:
   includes:
-    before_title: '<a href="https://2degrees-investing.org"><img src="{{#site}}{{root}}{{/site}}2DII-Logo-Blue.svg" id="navlogo" alt="2 Degrees Investing Initiative"></a>'
+    before_title: '<a href="https://2degrees-investing.org"><img src="https://2degreesinvesting.github.io/r2diitemplate/2DII-Logo-Blue.svg" id="navlogo" alt="2 Degrees Investing Initiative"></a>'
   bootstrap: 5
   bslib:
     bg: "white"
