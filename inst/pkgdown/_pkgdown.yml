@@ -22,6 +22,7 @@ template:
     base_font: {google: "IBM Plex Sans"}
     heading_font: {google: "Corben"}
 navbar:
+  bg: white
   structure:
     left:  []
     right: [search, intro, reference, articles, tutorials, news, github]
