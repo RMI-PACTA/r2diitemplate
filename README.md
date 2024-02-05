@@ -1,6 +1,10 @@
 
 # r2diitemplate
 
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+
+**This project is archived for future reference, but no new work is expected in this repository. Future work is expected to be based off [pacta.r.package`](https://github.com/RMI-PACTA/pacta.r.package).**
+
 <!-- badges: start -->
 <!-- badges: end -->
 
